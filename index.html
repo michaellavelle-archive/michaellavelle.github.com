@@ -1,8 +1,320 @@
-<html>
-<head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <noscript>
+            <style type="text/css">
+                .brick {
+                    height: 125px !important;
+                }
+                
+                #nav #browse_months {
+                    display: none !important;
+                }
+                
+                #nav #search {
+                    right: 21px !important;
+                }
+                
+                #content {
+                    margin: 0 15px !important;
+                }
+                
+                #pagination {
+                    clear: both !important;
+                }
+                
+                #pagination #next_page {
+                    display: block !important;
+                }
+            </style>
+        </noscript>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="x-dns-prefetch-control" content="off"/>
+        <title>Michael Lavelle: Archive</title>
+        
+                    <link rel="icon" href="http://27.media.tumblr.com/avatar_ffdbffc2a94f_16.png" type="image/gif"/>
+                
+        <link href="http://assets.tumblr.com/stylesheets/compressed/archive.css?800" rel="stylesheet" type="text/css" />
+        
+        <script type="text/javascript" language="javascript"
+        src="http://assets.tumblr.com/javascript/prototype_and_effects.js?800"></script>
+        
+                    <script type="text/javascript" language="javascript"
+            src="http://assets.tumblr.com/javascript/archive.js?800"></script>
+                
+        <!--[if lte IE 7]>
+            <style type="text/css">
+                #content .brick {
+                    background-image: none;
+                }
+                
+                #content .heading .post_count {
+                    margin-top: -25px;
+                }
+                
+                #nav #browse_months_widget .months .month .post_count {
+                    display: none;
+                }
+                
+                #nav #browse_months {
+                    width: 180px;
+                }
+                
+                #content .brick .highlight .tag_count {
+                    background: #73bae7;
+                }
+            </style>
+        <![endif]-->
+        <!--[if lte IE 6]>
+            <script type="text/javascript" src="http://assets.tumblr.com/javascript/supersleight.js"></script>
+            <script type="text/javascript" charset="utf-8">
+                Event.observe(window, 'load', function() {
+                    supersleight.run();
+                });
+            </script>
+        <![endif]-->
+        
+            </head>
+    <body id="body">
+        <div id="nav">            
+                        
+            <a href="/" class="blog_title" style="position:relative;">Michael Lavelle&nbsp;</a>
+           <!-- 
+            <div id="browse_months" onclick="just_clicked_browse_months = true;" class="header_button">
+                <button id="jump_to_month" type="button" class="chrome big_dark"><div class="chrome_button"><div 
+                class="chrome_button_left"></div>Jump to month <img src="http://assets.tumblr.com/images/archive_header_button_arrow.png" 
+                width="9" height="6" style="vertical-align:2px; margin:0 0 0 3px;" alt=""/><div class="chrome_button_right"></div></div></button>
+            </div>
+            
+                                            
+                    <div id="search" class="header_button">
+                        <form action="/search" method="get"><input type="text" name="q" /></form>
+                    </div>
+                 -->               
+                <div class="clear"></div>
+                
+                <div id="browse_months_widget" style="display:none" onclick="just_clicked_browse_months = true;">
+                                            <div id="year_2012" style="display:block">
+                            <div class="years">
+                                <span class="previous_year"><a href="#" onclick="$('year_2011').show(); $('year_2012').hide(); return false;">&larr;&nbsp;2011</a></span>
+                                <span class="selected_year">2012</span>
+                                <span class="next_year"></span>
+                                <div class="clear"></div>
+                            </div>
+                            
+                                                            <div class="months left">
+                                                                            <div class="month ">
+                                                                                            <a href="/archive/2012/1">January</a>
+                                                                                                    <span class="post_count">
+                                                        4                                                    </span>
+                                                                                                                                    </div>
+                                                                            <div class="month active">
+                                                                                            February                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            March                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            <a href="/archive/2012/4">April</a>
+                                                                                                    <span class="post_count">
+                                                        7                                                    </span>
+                                                                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            May                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            June                                                                                    </div>
+                                                                    </div>
+                                                            <div class="months right">
+                                                                            <div class="month ">
+                                                                                            July                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            August                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            September                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            October                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            November                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            December                                                                                    </div>
+                                                                    </div>
+                                                        <div class="clear"></div>
+                        </div>
+                                            <div id="year_2011" style="display:none">
+                            <div class="years">
+                                <span class="previous_year"></span>
+                                <span class="selected_year">2011</span>
+                                <span class="next_year"><a href="#" onclick="$('year_2012').show(); $('year_2011').hide(); return false;">2012&nbsp;&rarr;</a></span>
+                                <div class="clear"></div>
+                            </div>
+                            
+                                                            <div class="months left">
+                                                                            <div class="month ">
+                                                                                            January                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            February                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            March                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            April                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            May                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            June                                                                                    </div>
+                                                                    </div>
+                                                            <div class="months right">
+                                                                            <div class="month ">
+                                                                                            July                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            August                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            September                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            October                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            November                                                                                    </div>
+                                                                            <div class="month ">
+                                                                                            <a href="/archive/2011/12">December</a>
+                                                                                                    <span class="post_count">
+                                                        1                                                    </span>
+                                                                                                                                    </div>
+                                                                    </div>
+                                                        <div class="clear"></div>
+                        </div>
+                                    </div>
+                
+                <script type="text/javascript">
+                    if (is_mobile) {
+                        $('search').remove();
+                        $('browse_months').remove();
+                    }
+                </script>
+                        
+            <div id="shadow"></div>
+        </div>
+        
+                                                    
+                <div id="content">
+                    <script type="text/javascript">
+                        $('content').hide();
+                    </script>
+                    
+                    <!-- START CONTENT -->
+                    
+                                        
+                                                                    
+                                                    <div class="heading" style=" display:block" id="heading_1328054400">
+                                Michael Lavelle's GitHub Projects                              
+                                                                    <div class="post_count">4 posts</div>
+                                                            </div>
+                                                
+                               
+                                                
+<!--                                                                        
+                        <a id="post_21104558876" alt="1" target="_blank" class="brick link timestamp_1328054402" style=" display:block; " href="http://michaellavelleuk.tumblr.com/post/21104558876/spring-social-soundcloud" >
+-->
+                                                      
+                        <a id="post_21104558876" alt="1" target="_blank" class="brick link timestamp_1328054402" style=" display:block; " href="https://github.com/michaellavelle/spring-social-soundcloud" >
+                            <div class="highlight">
+                                <img src="http://assets.tumblr.com/images/small_white_checkmark.png"
+                                class="checkmark"/>
+                                <div class="tag_count" id="tag_count_21104558876"
+                                style="">4 tags</div>
+                            </div>
+                            
+                                                            <div class="title">spring-social-soundcloud&nbsp;&rarr;</div>
+                                <div class="overprint nowrap">SoundCloud API Java binding and connect support for Spring Social
+</div>                                                        
+                                                        
+                            <div class="overlay">
+                                <div class="inner">
+                                    <div class="date">Aug 2011</div>
+                                                                    </div>
+                            </div>
+                        </a>
+                                                                    
+                                                                                                    
+                        <a id="post_21104439023" alt="0" target="_blank" class="brick link timestamp_1328054402" style=" display:block; " href="https://github.com/michaellavelle/spring-social-lastfm" >
+<!-- 
+                                                                                       
+                        <a id="post_21104439023" alt="0" target="_blank" class="brick link timestamp_1328054402" style=" display:block; " href="http://michaellavelleuk.tumblr.com/post/21104439023/spring-social-lastfm" >
+-->
+                            <div class="highlight">
+                                <img src="http://assets.tumblr.com/images/small_white_checkmark.png"
+                                class="checkmark"/>
+                                <div class="tag_count" id="tag_count_21104439023"
+                                style="">4 tags</div>
+                            </div>
+                            
+                                                            <div class="title">spring-social-lastfm&nbsp;&rarr;</div>
+                                <div class="overprint nowrap">Last.Fm API Java binding and connect support for Spring Social
+</div>                                                        
+                                                        
+                            <div class="overlay">
+                                <div class="inner">
+                                    <div class="date">Sept 2011</div>
+                                                                    </div>
+                            </div>
+                        </a>
+                                                         
+                                                                        
+                        <a id="post_21104605482" alt="2" target="_blank" class="brick link timestamp_1328054402" style=" display:block; " href="https://github.com/michaellavelle/spring-social-mixcloud" >
 
-</head>
-<body>
-About my GitHub
-</body>
+<!--
+                                                                        
+                        <a id="post_21104605482" alt="2" target="_blank" class="brick link timestamp_1328054402" style=" display:block; " href="http://michaellavelleuk.tumblr.com/post/21104605482/spring-social-mixcloud" >
+-->
+
+                            <div class="highlight">
+                                <img src="http://assets.tumblr.com/images/small_white_checkmark.png"
+                                class="checkmark"/>
+                                <div class="tag_count" id="tag_count_21104605482"
+                                style="">4 tags</div>
+                            </div>
+                            
+                                                            <div class="title">spring-social-mixcloud&nbsp;&rarr;</div>
+                                <div class="overprint nowrap">Mixcloud API Java binding and connect support for Spring Social
+</div>                                                        
+                                                        
+                            <div class="overlay">
+                                <div class="inner">
+                                    <div class="date">Oct 2011</div>
+                                                                    </div>
+                            </div>
+                        </a>
+                                                                    
+                                                
+                                                                        
+                        <a id="post_21104582524" alt="3" target="_blank" class="brick link timestamp_1328054402" style=" display:block; " href="https://github.com/michaellavelle/spring-social-exfm" >
+
+<!--
+                                                                        
+                        <a id="post_21104582524" alt="3" target="_blank" class="brick link timestamp_1328054402" style=" display:block; " href="http://michaellavelleuk.tumblr.com/post/21104582524/spring-social-exfm" >
+
+-->
+
+                            <div class="highlight">
+                                <img src="http://assets.tumblr.com/images/small_white_checkmark.png"
+                                class="checkmark"/>
+                                <div class="tag_count" id="tag_count_21104582524"
+                                style="">4 tags</div>
+                            </div>
+                            
+                                                            <div class="title">spring-social-exfm&nbsp;&rarr;</div>
+                                <div class="overprint nowrap">Ex.Fm API Java binding and connect support for Spring Social</div>                                                        
+                                                        
+                            <div class="overlay">
+                                <div class="inner">
+                                    <div class="date">Jan 2012</div>
+                                                                    </div>
+                            </div>
+                        </a>
+                                        
+                    <!-- END CONTENT -->
+                </div>
+                
+                <div id="pagination">
+                    <div id="loading" style="display:none"><span>Loading...</span></div>
+                    
+                                    </div>
+                        </body>
 </html>
